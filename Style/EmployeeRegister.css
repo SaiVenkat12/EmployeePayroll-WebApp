@@ -30,19 +30,21 @@
 .title2 {
     color: #42515F;
 }
-.formbody{
-    display: flex; 
-    justify-content: center; 
+
+.formbody {
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #F7F7F7;
 }
+
 .empform {
     top: 133px;
     left: 397px;
     width: 1126px;
     height: 911px;
     padding: 10px;
-    
+
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #F5F5F5;
@@ -70,7 +72,8 @@
     display: flex;
     margin: 30px;
 }
-label{
+
+label {
     top: 781px;
     left: 546px;
     width: 48px;
@@ -81,6 +84,7 @@ label{
     color: #42515F;
     opacity: 1;
 }
+
 .labeltext {
     top: 781px;
     left: 546px;
@@ -116,27 +120,34 @@ label{
     margin-left: 60px;
     opacity: 1;
 }
-.profileImg{
-    
+
+.profileImg {
+
     margin-left: 60px;
 }
-
-.profile-radio-content{
-   display:flex;
-   margin-left: 60px;
+input[type=radio]{
+    top: 447px;
+left: 688px;
+width: 16px;
+    height: 32px;
+background: #DEDEDE 0% 0% no-repeat padding-box;
+border: 1px solid #B4B4B4;
+opacity: 1;
 }
 
-.gender{
+.gender {
     top: 445px;
     left: 546px;
     width: 360px;
     height: 24px;
+    display: flex;
+    align-items: center;
     /* UI Properties */
     margin-left: 60px;
     opacity: 1;
 }
 
-.dept{
+.dept {
     top: 515px;
     left: 546px;
     width: 745px;
@@ -145,46 +156,108 @@ label{
     /* UI Properties */
     opacity: 1;
 }
-#salary{
+
+#salary {
     top: 585px;
-left: 688px;
-width: 280px;
-height: 35px;
-margin-left: 60px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #BDBDBD;
-border-radius: 3px;
-opacity: 1;
-}
-.startdate{
-    top: 681px;
-left: 688px;
-width: 163px;
-height: 50px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #BDBDBD;
-border-radius: 3px;
-margin-left: 60px;
-opacity: 1;
-}
-.notes{
+    left: 688px;
+    width: 280px;
+    height: 35px;
     margin-left: 60px;
-    top: 777px;
-    left: 546px;
-    width: 828px;
-    height: 104px;
-    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
     opacity: 1;
 }
-.buttons{
-    top: 915px;
-left: 546px;
-width: 180px;
-height: 53px;
-/* UI Properties */
-background: #E2E2E2 0% 0% no-repeat padding-box;
-border: 1px solid #969696;
-border-radius: 5px;
-opacity: 1;
+
+.startdate {
+    display: flex;
+    gap:8px;
+    margin-left: 60px;
 }
 
+#day {
+    top: 681px;
+    left: 688px;
+    width: 90px;
+    height: 45px;
+    padding-left: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+#month {
+    top: 681px;
+    left: 876px;
+    width: 90px;
+    height: 45px;
+    padding-left: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+#year {
+    top: 681px;
+    left: 1064px;
+    width: 90px;
+    height: 45px;
+    padding-left: 22px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+#notes {
+    margin-left: 60px;
+    top: 777px;
+    left: 688px;
+    width: 686px;
+    height: 104px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.buttons {
+    display: flex;
+    height: 40px;
+}
+
+#cancle-button {
+    top: 915px;
+    left: 546px;
+    width: 180px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+#submit-button {
+    top: 915px;
+    left: 994px;
+    width: 180px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+}
+
+#reset-button {
+    top: 915px;
+    left: 1194px;
+    width: 180px;
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+}
+
+.btn {
+    margin-left: 240px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    opacity: 1;
+}
