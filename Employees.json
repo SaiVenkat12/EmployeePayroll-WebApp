@@ -1,0 +1,12 @@
+{
+  "employees": [
+    {
+      "Name": "Sai",
+      "Profile": "../Assests/Profiles/Ellipse -3.png",
+      "Gender": "male",
+      "Salary": "100000",
+      "Notes": "Test",
+      "id": 1
+    }
+  ]
+}

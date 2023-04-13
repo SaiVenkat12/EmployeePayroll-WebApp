@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="../Script/EmpForm.js"></script>
     <link rel="stylesheet" href="../Style/EmployeeRegister.css">
     <title>Employee Payroll Form</title>
 </head>
@@ -35,8 +37,10 @@
                 </div>
             </div>
             <div class="empDetails">
-                <label class="labeltext" for="profile">ProfileImage</label>
-                <div class="profileImg">
+                <div class="profilename">
+                    <label class="labeltext" for="profile">ProfileImage</label>
+                </div>
+                <div class="profileImg" id="profile">
 
                     <label>
                         <input type="radio" id="profile1" name="profile" value="../Assests/Profiles/Ellipse -1.png"
@@ -62,8 +66,8 @@
             </div>
 
             <div class="empDetails">
-                <label class="labeltext" for="gender">Gender</label>
-                <div class="gender">
+                <label class="labeltext"  for="gender">Gender</label>
+                <div class="gender" id="gender">
 
                     <input type="radio" id="male" name="gender" value="male">
                     <label class="text" for="male">Male</label>
@@ -75,7 +79,7 @@
 
             <div class="empDetails">
                 <label class="labeltext" for="Department">Department</label>
-                <div class="dept">
+                <div class="dept" id="dept">
 
                     <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
                     <label class="text" for="hr">HR</label>
@@ -112,8 +116,10 @@
             </div>
 
             <div class="empDetails">
-                <lable class="labeltext" for="startDate">Start Date</lable>
-                <div class="startdate">
+                <div class="datetitle">
+                    <lable class="labeltext" for="startDate">StartDate</lable>
+                </div>
+                <div class="startdate" id="startdate">
                     <span>
                         <select id="day" name="Day">
                             <option>Day</option>
@@ -189,7 +195,7 @@
             <div class="empDetails">
                 <label class="labeltext" for="notes">Notes</label>
                 <div class="notes">
-                    <textarea name="Notes" id="notes" placeholder="Enter Text" style="height: 60px"></textarea>
+                    <textarea name="Notes" id="notes" placeholder="Enter Text"></textarea>
                 </div>
             </div>
 
@@ -197,7 +203,7 @@
                 <div class="buttons">
                     <button type="cancel" class="cancelButton" id="cancle-button">Cancle</button>
                     <div class="btn">
-                        <button type="submit" class="submitButton" id="submit-button">Submit</button>
+                        <button type="submit" class="submitButton" id="submit-button" onclick="submitForm()">Submit</button>
                         <button type="reset" class="resetButton" id="reset-button">Reset</button>
                     </div>
                 </div>

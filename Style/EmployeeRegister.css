@@ -8,6 +8,7 @@
     background: #FFFFFF 0% 0% no-repeat padding-box;
     color: #FFFFFF;
     padding-left: 60px;
+    text-transform: capitalize;
     opacity: 1;
 }
 
@@ -41,10 +42,10 @@
 .empform {
     top: 133px;
     left: 397px;
-    width: 1126px;
+    width: 950px;
     height: 911px;
-    padding: 10px;
-
+    margin-top: 15px;
+    padding-left: 50px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #F5F5F5;
@@ -117,22 +118,26 @@ label {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
-    margin-left: 60px;
+    margin-left: 80px;
     opacity: 1;
 }
 
-.profileImg {
-
-    margin-left: 60px;
+.profilename {
+    margin-top: 15px;
 }
-input[type=radio]{
+
+.profileImg {
+    margin-left: 30px;
+}
+
+input[type=radio] {
     top: 447px;
-left: 688px;
-width: 16px;
+    left: 688px;
+    width: 16px;
     height: 32px;
-background: #DEDEDE 0% 0% no-repeat padding-box;
-border: 1px solid #B4B4B4;
-opacity: 1;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    opacity: 1;
 }
 
 .gender {
@@ -142,8 +147,7 @@ opacity: 1;
     height: 24px;
     display: flex;
     align-items: center;
-    /* UI Properties */
-    margin-left: 60px;
+    margin-left: 76px;
     opacity: 1;
 }
 
@@ -152,8 +156,7 @@ opacity: 1;
     left: 546px;
     width: 745px;
     height: 24px;
-    margin-left: 60px;
-    /* UI Properties */
+    margin-left: 80px;
     opacity: 1;
 }
 
@@ -162,16 +165,20 @@ opacity: 1;
     left: 688px;
     width: 280px;
     height: 35px;
-    margin-left: 60px;
+    margin-left: 80px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
     opacity: 1;
 }
 
+.datetitle {
+    margin-top: 15px;
+}
+
 .startdate {
     display: flex;
-    gap:8px;
+    gap: 8px;
     margin-left: 60px;
 }
 
@@ -212,11 +219,11 @@ opacity: 1;
 }
 
 #notes {
-    margin-left: 60px;
     top: 777px;
     left: 688px;
     width: 686px;
     height: 104px;
+    margin-left: 80px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #BDBDBD;
     border-radius: 3px;
@@ -226,6 +233,14 @@ opacity: 1;
 .buttons {
     display: flex;
     height: 40px;
+}
+
+.btn {
+    margin-left: 240px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    opacity: 1;
 }
 
 #cancle-button {
@@ -244,6 +259,7 @@ opacity: 1;
     width: 180px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
+    border-radius: 5px;
 }
 
 #reset-button {
@@ -252,12 +268,20 @@ opacity: 1;
     width: 180px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
+    border-radius: 5px;
 }
 
-.btn {
-    margin-left: 240px;
-    display: flex;
-    gap: 20px;
-    border-radius: 5px;
-    opacity: 1;
+#cancle-button:hover{
+    background-color:#B4B4B4;
+    color: red;
+}
+
+#reset-button:hover{
+    background-color:#B4B4B4;
+    color:cornsilk;
+}
+
+#submit-button:hover{
+    background-color:#B4B4B4;
+    color:cornsilk;
 }
