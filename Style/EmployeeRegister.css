@@ -1,8 +1,6 @@
 .logotitle {
     top: 0px;
     left: 0px;
-    /* width: 1000px;
-    height: 86px; */
     display: flex;
     align-items: center;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -31,7 +29,9 @@
 .title2 {
     color: #42515F;
 }
-
+body{
+    margin: 0px;
+}
 .formbody {
     display: flex;
     justify-content: center;
@@ -236,7 +236,7 @@ input[type=radio] {
 }
 
 .btn {
-    margin-left: 240px;
+    margin-left: 390px;
     display: flex;
     gap: 20px;
     border-radius: 5px;
@@ -246,7 +246,7 @@ input[type=radio] {
 #cancle-button {
     top: 915px;
     left: 546px;
-    width: 180px;
+    width: 140px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
@@ -256,7 +256,7 @@ input[type=radio] {
 #submit-button {
     top: 915px;
     left: 994px;
-    width: 180px;
+    width: 140px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
@@ -265,15 +265,15 @@ input[type=radio] {
 #reset-button {
     top: 915px;
     left: 1194px;
-    width: 180px;
+    width: 140px;
     background: #E2E2E2 0% 0% no-repeat padding-box;
     border: 1px solid #969696;
     border-radius: 5px;
 }
 
 #cancle-button:hover{
-    background-color:#B4B4B4;
-    color: red;
+    background-color:red;
+    color:cornsilk;
 }
 
 #reset-button:hover{
@@ -282,6 +282,6 @@ input[type=radio] {
 }
 
 #submit-button:hover{
-    background-color:#B4B4B4;
+    background-color:green;
     color:cornsilk;
 }
