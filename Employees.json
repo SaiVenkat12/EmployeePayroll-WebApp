@@ -2,41 +2,23 @@
   "employees": [
     {
       "Name": "Sai",
-      "Profile": "../Assests/Profiles/Ellipse -3.png",
+      "Profile": "../assets/profile-images/Ellipse-5.png",
       "Gender": "male",
+      "Department": "Finaance,Engineer,Others",
       "Salary": "100000",
-      "Notes": "Test",
+      "Startdate": "18 Oct 2022",
+      "Notes": "cdc",
       "id": 1
     },
     {
-      "Name": "Sai Venkat",
-      "Profile": "../Assests/Profiles/Ellipse -3.png",
-      "Gender": "male",
-      "Department": "Finaance,Others",
-      "Salary": "100000",
-      "Startdate": "22 Sep 2019",
-      "Notes": "Testing",
-      "id": 2
-    },
-    {
-      "Name": "Asbsk",
-      "Profile": "../Assests/Profiles/Ellipse -1.png",
+      "Name": "Uiacsocc",
+      "Profile": "../assets/profile-images/Ellipse-1.png",
       "Gender": "female",
-      "Department": "HR,sales",
-      "Salary": "80000",
-      "Startdate": "18 Mar 2021",
-      "Notes": "sksc",
-      "id": 3
-    },
-    {
-      "Name": "sjk",
-      "Profile": "../Assests/Profiles/Ellipse -2.png",
-      "Gender": "male",
-      "Department": "HR,sales",
-      "Salary": "90000",
-      "Startdate": "22 Feb 2019",
-      "Notes": "Dksdl",
-      "id": 4
+      "Department": "HR",
+      "Salary": "60000",
+      "Startdate": "18 Sep 2021",
+      "Notes": "c  skc",
+      "id": 2
     }
   ]
 }

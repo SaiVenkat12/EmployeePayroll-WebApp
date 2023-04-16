@@ -30,22 +30,26 @@
             Employee Details
         </div>
         <div class="btns">
-            <button type="AddUser" id="AddUser" onclick="window.location.href='./EmployeeRegister.html'"><img
-                    src="../assets/icons/add-24px.svg">AddUser</button>
-            <!-- <img src="../assets/icons/"> -->
+            <button type="AddUser" id="AddUser" onclick="window.location.href='./EmployeeRegister.html'">
+                <img src="../assets/icons/add-24px.svg">Add User</button>
         </div>
     </div>
 
     <div class="emptable">
-        <table class="display" id="display">
-            <tr>
-                <th>NAME</th>
+        <table class="displaydata" id="display">
+            <tr class="table-head" id="tablehead">
+                <th class="name">NAME</th>
                 <th>GENDER</th>
                 <th>DEPARTMENT</th>
                 <th>SALARY</th>
                 <th>START DATE</th>
-                <th>ACTIONS</th>
+                <th class="actions">ACTIONS</th>
             </tr>
+            <div class="table-body">
+                <tbody class="tabledata" id="dt">
+
+                </tbody>
+            </div>
         </table>
     </div>
 
