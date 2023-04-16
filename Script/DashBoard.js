@@ -3,7 +3,8 @@ $(function () {
     $.ajax({
         type: 'GET',
         url: 'http://localhost:3000/employees',
-        dataType: 'json',
+        contentType: 'application/json',
+
         success: function (data) {
             var tableBody = $('#display');
 
@@ -46,12 +47,26 @@ function deleteEmployee(empId) {
     $.ajax({
         url: 'http://localhost:3000/employees/' + empId,
         type: 'DELETE',
-        success: function () {
-            $('tr[data-id="' + empId + '"]').remove();
+        success: function (data) {
         },
         error: function (error) {
             console.log("Error!!",error);
         }
     });
+
+function editEmployee(){
+    $.ajax({
+        url: 'http://localhost:3000/employees/' + empId,
+        type: 'PUT',
+        dataType: 'json',
+        data: { "": 'sourav' },
+        success: function (data, textStatus, xhr) {
+            console.log(data);
+        },
+        error: function (xhr, textStatus, errorThrown) {
+            console.log('Error in Operation');
+        }
+    });
 }
-console.log("dndc");
+
+}

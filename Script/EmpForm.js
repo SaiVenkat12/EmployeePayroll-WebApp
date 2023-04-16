@@ -24,7 +24,7 @@ const submitForm = () => {
         "Name": name,
         "Profile": profile,
         "Gender": gender,
-        "Department": dept,
+        "Department": deptArr,
         "Salary": salary,
         "Startdate": date,
         "Notes": note,
@@ -32,8 +32,8 @@ const submitForm = () => {
     $.ajax({
         type: 'POST',
         url: "http://localhost:3000/employees",
-        datatype: 'application/json',
-        data: reqData,
+        contentType: 'application/json',
+        data: JSON.stringify(reqData),
         success: function () {
             alert("employee data added Successfully");
         },

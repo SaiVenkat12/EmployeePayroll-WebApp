@@ -19,6 +19,19 @@
       "Startdate": "18 Sep 2021",
       "Notes": "c  skc",
       "id": 2
+    },
+    {
+      "Name": "cldc",
+      "Profile": "../assets/profile-images/Ellipse-1.png",
+      "Gender": "male",
+      "Department": [
+        "Finaance",
+        "Engineer"
+      ],
+      "Salary": "60000",
+      "Startdate": "18 Mar 2018",
+      "Notes": "dsc",
+      "id": 4
     }
   ]
 }
