@@ -11,27 +11,31 @@
       "id": 1
     },
     {
-      "Name": "Uiacsocc",
-      "Profile": "../assets/profile-images/Ellipse-1.png",
-      "Gender": "female",
-      "Department": "HR",
-      "Salary": "60000",
-      "Startdate": "18 Sep 2021",
-      "Notes": "c  skc",
+      "Name": "Salokspa",
+      "Profile": "../assets/profile-images/Ellipse-5.png",
+      "Gender": "male",
+      "Department": [
+        "HR",
+        "Engineer"
+      ],
+      "Salary": "40000",
+      "Startdate": "1 Jan 2016",
+      "Notes": "cdad",
       "id": 2
     },
     {
-      "Name": "cldc",
-      "Profile": "../assets/profile-images/Ellipse-1.png",
+      "Name": "xclknv",
+      "Profile": "../assets/profile-images/Ellipse-7.png",
       "Gender": "male",
       "Department": [
+        "HR",
         "Finaance",
         "Engineer"
       ],
       "Salary": "60000",
-      "Startdate": "18 Mar 2018",
-      "Notes": "dsc",
-      "id": 4
+      "Startdate": "15 May 2021",
+      "Notes": "xm ",
+      "id": 3
     }
   ]
 }

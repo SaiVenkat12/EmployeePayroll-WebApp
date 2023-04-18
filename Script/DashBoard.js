@@ -53,20 +53,8 @@ function deleteEmployee(empId) {
             console.log("Error!!",error);
         }
     });
-
-function editEmployee(){
-    $.ajax({
-        url: 'http://localhost:3000/employees/' + empId,
-        type: 'PUT',
-        dataType: 'json',
-        data: { "": 'sourav' },
-        success: function (data, textStatus, xhr) {
-            console.log(data);
-        },
-        error: function (xhr, textStatus, errorThrown) {
-            console.log('Error in Operation');
-        }
-    });
 }
-
+function editEmployee(id){
+    localStorage.setItem('empid', id);
+    window.location.href='./UpdateForm.html';
 }
